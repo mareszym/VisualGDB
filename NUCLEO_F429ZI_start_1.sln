@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NUCLEO_F429ZI_start_1", "NUCLEO_F429ZI_start_1\NUCLEO_F429ZI_start_1.vcxproj", "{824EB892-3024-481B-B1B7-A6B2603D1B1F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|VisualGDB = Debug|VisualGDB
+		Release|VisualGDB = Release|VisualGDB
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{824EB892-3024-481B-B1B7-A6B2603D1B1F}.Debug|VisualGDB.ActiveCfg = Debug|VisualGDB
+		{824EB892-3024-481B-B1B7-A6B2603D1B1F}.Debug|VisualGDB.Build.0 = Debug|VisualGDB
+		{824EB892-3024-481B-B1B7-A6B2603D1B1F}.Release|VisualGDB.ActiveCfg = Release|VisualGDB
+		{824EB892-3024-481B-B1B7-A6B2603D1B1F}.Release|VisualGDB.Build.0 = Release|VisualGDB
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B24DC871-B58F-4EC4-94BD-4D0B2D230431}
+	EndGlobalSection
+EndGlobal

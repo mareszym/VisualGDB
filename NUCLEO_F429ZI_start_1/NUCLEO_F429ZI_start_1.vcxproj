@@ -1,0 +1,378 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|VisualGDB">
+      <Configuration>Debug</Configuration>
+      <Platform>VisualGDB</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|VisualGDB">
+      <Configuration>Release</Configuration>
+      <Platform>VisualGDB</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{824EB892-3024-481B-B1B7-A6B2603D1B1F}</ProjectGuid>
+    <BSP_ID>com.sysprogs.arm.stm32</BSP_ID>
+    <BSP_VERSION>4.7R3</BSP_VERSION>
+    <InPlaceBSPSubdir />
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Debug|VisualGDB'">
+    <MCUPropertyListFile>$(ProjectDir)stm32.props</MCUPropertyListFile>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Release|VisualGDB'">
+    <MCUPropertyListFile>$(ProjectDir)stm32.props</MCUPropertyListFile>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|VisualGDB'">
+    <GNUConfigurationType>Debug</GNUConfigurationType>
+    <ToolchainID>com.visualgdb.arm-eabi</ToolchainID>
+    <ToolchainVersion>7.2.0/8.0.1/r3</ToolchainVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|VisualGDB'">
+    <ToolchainID>com.visualgdb.arm-eabi</ToolchainID>
+    <ToolchainVersion>7.2.0/8.0.1/r3</ToolchainVersion>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|VisualGDB'">
+    <ClCompile>
+      <CLanguageStandard>
+      </CLanguageStandard>
+      <AdditionalIncludeDirectories>Inc;Drivers\CMSIS\Include;Drivers\CMSIS\Device\ST\STM32F4xx\Include;Drivers\STM32F4xx_HAL_Driver\Inc;Drivers\STM32F4xx_HAL_Driver\Inc\Legacy;Inc/arch;Inc/lwip;Inc/lwip/apps;Inc/lwip/priv;Inc/lwip/prot;Inc/netif;Inc/netif/ppp;Inc/netif/ppp/polarssl;Inc/posix;Inc/posix/sys;Src/BME280;Src/ENC28J60;Src/LwIP/apps/httpd;Src/LwIP/apps/snmp;Src/LwIP/netif/ppp;%(ClCompile.AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>DEBUG=1;flash_layout;STM32F429xx;%(ClCompile.PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions />
+      <CPPLanguageStandard />
+    </ClCompile>
+    <Link>
+      <LibrarySearchDirectories>%(Link.LibrarySearchDirectories)</LibrarySearchDirectories>
+      <AdditionalLibraryNames>%(Link.AdditionalLibraryNames)</AdditionalLibraryNames>
+      <AdditionalLinkerInputs>%(Link.AdditionalLinkerInputs)</AdditionalLinkerInputs>
+      <AdditionalOptions />
+      <LinkerScript />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|VisualGDB'">
+    <ClCompile>
+      <CLanguageStandard>
+      </CLanguageStandard>
+      <AdditionalIncludeDirectories>Inc;Drivers\CMSIS\Include;Drivers\CMSIS\Device\ST\STM32F4xx\Include;Drivers\STM32F4xx_HAL_Driver\Inc;Drivers\STM32F4xx_HAL_Driver\Inc\Legacy;%(ClCompile.AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG=1;RELEASE=1;flash_layout;STM32F429xx;%(ClCompile.PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions />
+      <CPPLanguageStandard />
+    </ClCompile>
+    <Link>
+      <LibrarySearchDirectories>%(Link.LibrarySearchDirectories)</LibrarySearchDirectories>
+      <AdditionalLibraryNames>%(Link.AdditionalLibraryNames)</AdditionalLibraryNames>
+      <AdditionalLinkerInputs>%(Link.AdditionalLinkerInputs)</AdditionalLinkerInputs>
+      <AdditionalOptions />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ItemGroup>
+    <ClCompile Include="Src\gpio.c" />
+    <ClCompile Include="Src\i2c.c" />
+    <ClCompile Include="Src\msLWIPFunctions.c" />
+    <ClCompile Include="Src\spi.c" />
+    <ClCompile Include="Src\usart.c" />
+    <ClCompile Include="Src\stm32f4xx_it.c" />
+    <ClCompile Include="Src\stm32f4xx_hal_msp.c" />
+    <ClCompile Include="Src\main.c" />
+    <ClCompile Include="Drivers\CMSIS\Device\ST\STM32F4xx\Source\Templates\system_stm32f4xx.c" />
+    <ClCompile Include="Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c" />
+    <ClCompile Include="Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c" />
+    <ClCompile Include="Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c" />
+    <ClCompile Include="Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c" />
+    <ClCompile Include="Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c" />
+    <ClCompile Include="Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c" />
+    <ClCompile Include="Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c" />
+    <ClCompile Include="Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c" />
+    <ClCompile Include="Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c" />
+    <ClCompile Include="Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c" />
+    <ClCompile Include="Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c" />
+    <ClCompile Include="Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c" />
+    <ClCompile Include="Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c" />
+    <ClCompile Include="Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c" />
+    <ClCompile Include="Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c" />
+    <ClCompile Include="Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c" />
+    <ClCompile Include="Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c" />
+    <ClCompile Include="Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c" />
+    <ClInclude Include="Inc\msLWIP_testfn.h" />
+    <ClInclude Include="Src\msLWIPFunctions.h" />
+    <None Include="stm32.props" />
+    <ClCompile Include="$(BSP_ROOT)\STM32F4xxxx\StartupFiles\startup_stm32f429xx.c" />
+    <ClInclude Include="Inc\ethernetif.h" />
+    <ClInclude Include="Inc\gpio.h" />
+    <ClInclude Include="Inc\i2c.h" />
+    <ClInclude Include="Inc\lwipopts.h" />
+    <ClInclude Include="Inc\msSTM32Function.h" />
+    <ClInclude Include="Inc\spi.h" />
+    <ClInclude Include="Inc\usart.h" />
+    <ClInclude Include="Inc\stm32f4xx_it.h" />
+    <ClInclude Include="Inc\stm32f4xx_hal_conf.h" />
+    <ClInclude Include="Inc\main.h" />
+    <ClInclude Include="Drivers\CMSIS\Include\core_cm4.h" />
+    <ClInclude Include="Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h" />
+    <ClInclude Include="Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h" />
+    <ClInclude Include="Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h" />
+    <ClInclude Include="Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h" />
+    <ClInclude Include="Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h" />
+    <ClInclude Include="Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h" />
+    <ClInclude Include="Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h" />
+    <ClInclude Include="Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h" />
+    <ClInclude Include="Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h" />
+    <ClInclude Include="Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h" />
+    <ClInclude Include="Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h" />
+    <ClInclude Include="Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h" />
+    <ClInclude Include="Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h" />
+    <ClInclude Include="Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h" />
+    <ClInclude Include="Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h" />
+    <ClInclude Include="Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c.h" />
+    <ClInclude Include="Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c_ex.h" />
+    <ClInclude Include="Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_spi.h" />
+    <ClInclude Include="Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h" />
+    <ClInclude Include="Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h" />
+    <ClInclude Include="Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h" />
+    <ClInclude Include="Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h" />
+    <ClInclude Include="Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h" />
+    <None Include="NUCLEO_F429ZI_start_1-Debug.vgdbsettings" />
+    <None Include="NUCLEO_F429ZI_start_1-Release.vgdbsettings" />
+    <None Include="stm32.xml" />
+    <ClInclude Include="Inc\arch\cc.h" />
+    <ClInclude Include="Inc\arch\sys_arch.h" />
+    <ClInclude Include="Inc\lwip\api.h" />
+    <ClInclude Include="Inc\lwip\arch.h" />
+    <ClInclude Include="Inc\lwip\autoip.h" />
+    <ClInclude Include="Inc\lwip\debug.h" />
+    <ClInclude Include="Inc\lwip\def.h" />
+    <ClInclude Include="Inc\lwip\dhcp.h" />
+    <ClInclude Include="Inc\lwip\dhcp6.h" />
+    <ClInclude Include="Inc\lwip\dns.h" />
+    <ClInclude Include="Inc\lwip\err.h" />
+    <ClInclude Include="Inc\lwip\errno.h" />
+    <ClInclude Include="Inc\lwip\etharp.h" />
+    <ClInclude Include="Inc\lwip\ethip6.h" />
+    <ClInclude Include="Inc\lwip\icmp.h" />
+    <ClInclude Include="Inc\lwip\icmp6.h" />
+    <ClInclude Include="Inc\lwip\igmp.h" />
+    <ClInclude Include="Inc\lwip\inet.h" />
+    <ClInclude Include="Inc\lwip\inet_chksum.h" />
+    <ClInclude Include="Inc\lwip\init.h" />
+    <ClInclude Include="Inc\lwip\ip.h" />
+    <ClInclude Include="Inc\lwip\ip4.h" />
+    <ClInclude Include="Inc\lwip\ip4_addr.h" />
+    <ClInclude Include="Inc\lwip\ip4_frag.h" />
+    <ClInclude Include="Inc\lwip\ip6.h" />
+    <ClInclude Include="Inc\lwip\ip6_addr.h" />
+    <ClInclude Include="Inc\lwip\ip6_frag.h" />
+    <ClInclude Include="Inc\lwip\ip_addr.h" />
+    <ClInclude Include="Inc\lwip\mem.h" />
+    <ClInclude Include="Inc\lwip\memp.h" />
+    <ClInclude Include="Inc\lwip\mld6.h" />
+    <ClInclude Include="Inc\lwip\nd6.h" />
+    <ClInclude Include="Inc\lwip\netbuf.h" />
+    <ClInclude Include="Inc\lwip\netdb.h" />
+    <ClInclude Include="Inc\lwip\netif.h" />
+    <ClInclude Include="Inc\lwip\netifapi.h" />
+    <ClInclude Include="Inc\lwip\opt.h" />
+    <ClInclude Include="Inc\lwip\pbuf.h" />
+    <ClInclude Include="Inc\lwip\raw.h" />
+    <ClInclude Include="Inc\lwip\sio.h" />
+    <ClInclude Include="Inc\lwip\snmp.h" />
+    <ClInclude Include="Inc\lwip\sockets.h" />
+    <ClInclude Include="Inc\lwip\stats.h" />
+    <ClInclude Include="Inc\lwip\sys.h" />
+    <ClInclude Include="Inc\lwip\tcp.h" />
+    <ClInclude Include="Inc\lwip\tcpip.h" />
+    <ClInclude Include="Inc\lwip\timeouts.h" />
+    <ClInclude Include="Inc\lwip\udp.h" />
+    <ClInclude Include="Inc\lwip\apps\fs.h" />
+    <ClInclude Include="Inc\lwip\apps\httpd.h" />
+    <ClInclude Include="Inc\lwip\apps\httpd_opts.h" />
+    <ClInclude Include="Inc\lwip\apps\lwiperf.h" />
+    <ClInclude Include="Inc\lwip\apps\mdns.h" />
+    <ClInclude Include="Inc\lwip\apps\mdns_opts.h" />
+    <ClInclude Include="Inc\lwip\apps\mdns_priv.h" />
+    <ClInclude Include="Inc\lwip\apps\mqtt.h" />
+    <ClInclude Include="Inc\lwip\apps\mqtt_opts.h" />
+    <ClInclude Include="Inc\lwip\apps\netbiosns.h" />
+    <ClInclude Include="Inc\lwip\apps\netbiosns_opts.h" />
+    <ClInclude Include="Inc\lwip\apps\snmp.h" />
+    <ClInclude Include="Inc\lwip\apps\snmpv3.h" />
+    <ClInclude Include="Inc\lwip\apps\snmp_core.h" />
+    <ClInclude Include="Inc\lwip\apps\snmp_mib2.h" />
+    <ClInclude Include="Inc\lwip\apps\snmp_opts.h" />
+    <ClInclude Include="Inc\lwip\apps\snmp_scalar.h" />
+    <ClInclude Include="Inc\lwip\apps\snmp_table.h" />
+    <ClInclude Include="Inc\lwip\apps\snmp_threadsync.h" />
+    <ClInclude Include="Inc\lwip\apps\sntp.h" />
+    <ClInclude Include="Inc\lwip\apps\sntp_opts.h" />
+    <ClInclude Include="Inc\lwip\apps\tftp_opts.h" />
+    <ClInclude Include="Inc\lwip\apps\tftp_server.h" />
+    <ClInclude Include="Inc\lwip\priv\api_msg.h" />
+    <ClInclude Include="Inc\lwip\priv\memp_priv.h" />
+    <ClInclude Include="Inc\lwip\priv\memp_std.h" />
+    <ClInclude Include="Inc\lwip\priv\nd6_priv.h" />
+    <ClInclude Include="Inc\lwip\priv\tcpip_priv.h" />
+    <ClInclude Include="Inc\lwip\priv\tcp_priv.h" />
+    <ClInclude Include="Inc\lwip\prot\autoip.h" />
+    <ClInclude Include="Inc\lwip\prot\dhcp.h" />
+    <ClInclude Include="Inc\lwip\prot\dns.h" />
+    <ClInclude Include="Inc\lwip\prot\etharp.h" />
+    <ClInclude Include="Inc\lwip\prot\ethernet.h" />
+    <ClInclude Include="Inc\lwip\prot\icmp.h" />
+    <ClInclude Include="Inc\lwip\prot\icmp6.h" />
+    <ClInclude Include="Inc\lwip\prot\igmp.h" />
+    <ClInclude Include="Inc\lwip\prot\ip.h" />
+    <ClInclude Include="Inc\lwip\prot\ip4.h" />
+    <ClInclude Include="Inc\lwip\prot\ip6.h" />
+    <ClInclude Include="Inc\lwip\prot\mld6.h" />
+    <ClInclude Include="Inc\lwip\prot\nd6.h" />
+    <ClInclude Include="Inc\lwip\prot\tcp.h" />
+    <ClInclude Include="Inc\lwip\prot\udp.h" />
+    <ClInclude Include="Inc\netif\etharp.h" />
+    <ClInclude Include="Inc\netif\ethernet.h" />
+    <ClInclude Include="Inc\netif\ethernetif.h" />
+    <ClInclude Include="Inc\netif\lowpan6.h" />
+    <ClInclude Include="Inc\netif\lowpan6_opts.h" />
+    <ClInclude Include="Inc\netif\slipif.h" />
+    <ClInclude Include="Inc\netif\ppp\ccp.h" />
+    <ClInclude Include="Inc\netif\ppp\chap-md5.h" />
+    <ClInclude Include="Inc\netif\ppp\chap-new.h" />
+    <ClInclude Include="Inc\netif\ppp\chap_ms.h" />
+    <ClInclude Include="Inc\netif\ppp\eap.h" />
+    <ClInclude Include="Inc\netif\ppp\ecp.h" />
+    <ClInclude Include="Inc\netif\ppp\eui64.h" />
+    <ClInclude Include="Inc\netif\ppp\fsm.h" />
+    <ClInclude Include="Inc\netif\ppp\ipcp.h" />
+    <ClInclude Include="Inc\netif\ppp\ipv6cp.h" />
+    <ClInclude Include="Inc\netif\ppp\lcp.h" />
+    <ClInclude Include="Inc\netif\ppp\magic.h" />
+    <ClInclude Include="Inc\netif\ppp\mppe.h" />
+    <ClInclude Include="Inc\netif\ppp\ppp.h" />
+    <ClInclude Include="Inc\netif\ppp\pppapi.h" />
+    <ClInclude Include="Inc\netif\ppp\pppcrypt.h" />
+    <ClInclude Include="Inc\netif\ppp\pppdebug.h" />
+    <ClInclude Include="Inc\netif\ppp\pppoe.h" />
+    <ClInclude Include="Inc\netif\ppp\pppol2tp.h" />
+    <ClInclude Include="Inc\netif\ppp\pppos.h" />
+    <ClInclude Include="Inc\netif\ppp\ppp_impl.h" />
+    <ClInclude Include="Inc\netif\ppp\ppp_opts.h" />
+    <ClInclude Include="Inc\netif\ppp\upap.h" />
+    <ClInclude Include="Inc\netif\ppp\vj.h" />
+    <ClInclude Include="Inc\netif\ppp\polarssl\arc4.h" />
+    <ClInclude Include="Inc\netif\ppp\polarssl\des.h" />
+    <ClInclude Include="Inc\netif\ppp\polarssl\md4.h" />
+    <ClInclude Include="Inc\netif\ppp\polarssl\md5.h" />
+    <ClInclude Include="Inc\netif\ppp\polarssl\sha1.h" />
+    <ClInclude Include="Inc\posix\errno.h" />
+    <ClInclude Include="Inc\posix\netdb.h" />
+    <ClInclude Include="Inc\posix\sys\socket.h" />
+    <ClCompile Include="Src\msSTM32Function.c" />
+    <ClCompile Include="Src\syscalls.c" />
+    <ClCompile Include="Src\trash.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|VisualGDB'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|VisualGDB'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Src\BME280\bme280.c" />
+    <ClCompile Include="Src\BME280\msARM_BME280_I2Cdriver.c" />
+    <ClCompile Include="Src\BME280\msARM_BME280_SPIdriver.c" />
+    <ClCompile Include="Src\ENC28J60\enc28j60.c" />
+    <ClCompile Include="Src\ENC28J60\msENC28J60_HAL.c" />
+    <ClCompile Include="Src\LwIP\api\api_lib.c" />
+    <ClCompile Include="Src\LwIP\api\api_msg.c" />
+    <ClCompile Include="Src\LwIP\api\err.c" />
+    <ClCompile Include="Src\LwIP\api\netbuf.c" />
+    <ClCompile Include="Src\LwIP\api\netdb.c" />
+    <ClCompile Include="Src\LwIP\api\netifapi.c" />
+    <ClCompile Include="Src\LwIP\api\sockets.c" />
+    <ClCompile Include="Src\LwIP\api\tcpip.c" />
+    <ClCompile Include="Src\LwIP\core\def.c" />
+    <ClCompile Include="Src\LwIP\core\dns.c" />
+    <ClCompile Include="Src\LwIP\core\inet_chksum.c" />
+    <ClCompile Include="Src\LwIP\core\init.c" />
+    <ClCompile Include="Src\LwIP\core\ip.c" />
+    <ClCompile Include="Src\LwIP\core\mem.c" />
+    <ClCompile Include="Src\LwIP\core\memp.c" />
+    <ClCompile Include="Src\LwIP\core\netif.c" />
+    <ClCompile Include="Src\LwIP\core\pbuf.c" />
+    <ClCompile Include="Src\LwIP\core\raw.c" />
+    <ClCompile Include="Src\LwIP\core\stats.c" />
+    <ClCompile Include="Src\LwIP\core\sys.c" />
+    <ClCompile Include="Src\LwIP\core\tcp.c" />
+    <ClCompile Include="Src\LwIP\core\tcp_in.c" />
+    <ClCompile Include="Src\LwIP\core\tcp_out.c" />
+    <ClCompile Include="Src\LwIP\core\timeouts.c" />
+    <ClCompile Include="Src\LwIP\core\udp.c" />
+    <ClCompile Include="Src\LwIP\core\ipv4\autoip.c" />
+    <ClCompile Include="Src\LwIP\core\ipv4\dhcp.c" />
+    <ClCompile Include="Src\LwIP\core\ipv4\etharp.c" />
+    <ClCompile Include="Src\LwIP\core\ipv4\icmp.c" />
+    <ClCompile Include="Src\LwIP\core\ipv4\igmp.c" />
+    <ClCompile Include="Src\LwIP\core\ipv4\ip4.c" />
+    <ClCompile Include="Src\LwIP\core\ipv4\ip4_addr.c" />
+    <ClCompile Include="Src\LwIP\core\ipv4\ip4_frag.c" />
+    <ClCompile Include="Src\LwIP\core\ipv6\dhcp6.c" />
+    <ClCompile Include="Src\LwIP\core\ipv6\ethip6.c" />
+    <ClCompile Include="Src\LwIP\core\ipv6\icmp6.c" />
+    <ClCompile Include="Src\LwIP\core\ipv6\inet6.c" />
+    <ClCompile Include="Src\LwIP\core\ipv6\ip6.c" />
+    <ClCompile Include="Src\LwIP\core\ipv6\ip6_addr.c" />
+    <ClCompile Include="Src\LwIP\core\ipv6\ip6_frag.c" />
+    <ClCompile Include="Src\LwIP\core\ipv6\mld6.c" />
+    <ClCompile Include="Src\LwIP\core\ipv6\nd6.c" />
+    <ClCompile Include="Src\LwIP\netif\ethernet.c" />
+    <ClCompile Include="Src\LwIP\netif\ethernetif.c" />
+    <ClCompile Include="Src\LwIP\netif\ethernetif_org.c" />
+    <ClCompile Include="Src\LwIP\netif\lowpan6.c" />
+    <ClCompile Include="Src\LwIP\netif\slipif.c" />
+    <ClCompile Include="Src\LwIP\netif\ppp\auth.c" />
+    <ClCompile Include="Src\LwIP\netif\ppp\ccp.c" />
+    <ClCompile Include="Src\LwIP\netif\ppp\chap-md5.c" />
+    <ClCompile Include="Src\LwIP\netif\ppp\chap-new.c" />
+    <ClCompile Include="Src\LwIP\netif\ppp\chap_ms.c" />
+    <ClCompile Include="Src\LwIP\netif\ppp\demand.c" />
+    <ClCompile Include="Src\LwIP\netif\ppp\eap.c" />
+    <ClCompile Include="Src\LwIP\netif\ppp\ecp.c" />
+    <ClCompile Include="Src\LwIP\netif\ppp\eui64.c" />
+    <ClCompile Include="Src\LwIP\netif\ppp\fsm.c" />
+    <ClCompile Include="Src\LwIP\netif\ppp\ipcp.c" />
+    <ClCompile Include="Src\LwIP\netif\ppp\ipv6cp.c" />
+    <ClCompile Include="Src\LwIP\netif\ppp\lcp.c" />
+    <ClCompile Include="Src\LwIP\netif\ppp\magic.c" />
+    <ClCompile Include="Src\LwIP\netif\ppp\mppe.c" />
+    <ClCompile Include="Src\LwIP\netif\ppp\multilink.c" />
+    <ClCompile Include="Src\LwIP\netif\ppp\ppp.c" />
+    <ClCompile Include="Src\LwIP\netif\ppp\pppapi.c" />
+    <ClCompile Include="Src\LwIP\netif\ppp\pppcrypt.c" />
+    <ClCompile Include="Src\LwIP\netif\ppp\pppoe.c" />
+    <ClCompile Include="Src\LwIP\netif\ppp\pppol2tp.c" />
+    <ClCompile Include="Src\LwIP\netif\ppp\pppos.c" />
+    <ClCompile Include="Src\LwIP\netif\ppp\upap.c" />
+    <ClCompile Include="Src\LwIP\netif\ppp\utils.c" />
+    <ClCompile Include="Src\LwIP\netif\ppp\vj.c" />
+    <ClCompile Include="Src\LwIP\netif\ppp\polarssl\arc4.c" />
+    <ClCompile Include="Src\LwIP\netif\ppp\polarssl\des.c" />
+    <ClCompile Include="Src\LwIP\netif\ppp\polarssl\md4.c" />
+    <ClCompile Include="Src\LwIP\netif\ppp\polarssl\md5.c" />
+    <ClCompile Include="Src\LwIP\netif\ppp\polarssl\sha1.c" />
+    <ClInclude Include="Src\BME280\bme280.h" />
+    <ClInclude Include="Src\BME280\bme280_defs.h" />
+    <ClInclude Include="Src\BME280\msARM_BME280_I2Cdriver.h" />
+    <ClInclude Include="Src\BME280\msARM_BME280_SPIdriver.h" />
+    <ClInclude Include="Src\ENC28J60\enc28j60.h" />
+    <ClInclude Include="Src\ENC28J60\lc-switch.h" />
+    <ClInclude Include="Src\ENC28J60\lc.h" />
+    <ClInclude Include="Src\ENC28J60\msENC28J60_HAL.h" />
+    <ClInclude Include="Src\ENC28J60\pt.h" />
+    <ClInclude Include="Src\LwIP\netif\ppp\ppp_opts.h" />
+  </ItemGroup>
+</Project>

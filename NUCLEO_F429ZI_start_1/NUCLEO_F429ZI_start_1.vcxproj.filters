@@ -1,0 +1,1146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{5675b8d2-f2e6-4a08-bb1a-3bcef941a44c}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{016af5f8-03d8-4084-a67e-5d4359b6720a}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource files">
+      <UniqueIdentifier>{4065a858-b48a-462b-83cc-221be186cf34}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Source files\CORE">
+      <UniqueIdentifier>{7d565b0a-4ce7-4082-a1fe-1f21e2187a4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Startup">
+      <UniqueIdentifier>{4e0058f6-f596-49d4-9c2c-c8f8e921ce74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\STM32Cube HAL">
+      <UniqueIdentifier>{e44028fd-f595-4721-89d5-d88002a7eca5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\STM32Cube HAL\COMMON">
+      <UniqueIdentifier>{d7cfd0a1-2530-480c-af76-024c91a97489}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\STM32Cube HAL\RCC">
+      <UniqueIdentifier>{fed1c2ee-695d-4429-ba53-288dcce3562e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\STM32Cube HAL\CORTEX">
+      <UniqueIdentifier>{290d27b9-6c12-4f92-afc2-1d2b7a0426d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\STM32Cube HAL\TIM">
+      <UniqueIdentifier>{03def544-cc90-4e28-b2b3-e1613d228e53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\STM32Cube HAL\UART">
+      <UniqueIdentifier>{852ff0fb-04d1-433c-99b6-1e6fa9abd8b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\STM32Cube HAL\DMA">
+      <UniqueIdentifier>{bcf73c74-ba78-44cb-b738-f651c9b3e222}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\STM32Cube HAL\PWR">
+      <UniqueIdentifier>{c8000722-ca39-4a36-a6cd-de330bb62886}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\STM32Cube HAL\I2C">
+      <UniqueIdentifier>{a46d47e8-a324-4ad4-86d4-13ab1489e335}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\STM32Cube HAL\SPI">
+      <UniqueIdentifier>{00d00f4e-a83a-4c7b-87de-9c19ed42cfd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\STM32Cube HAL\FLASH">
+      <UniqueIdentifier>{ddc88b2e-3da9-41cf-833d-9726030a4922}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\STM32Cube HAL\GPIO">
+      <UniqueIdentifier>{2a785c12-bde6-4f83-a561-b14880ad99f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Device-specific files">
+      <UniqueIdentifier>{7ebb73f3-c49d-48e0-bf24-90c9b2944357}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\CORE">
+      <UniqueIdentifier>{57da158f-5fcc-4fc2-9137-869b5b722227}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Startup">
+      <UniqueIdentifier>{be793401-cc6e-4280-bb0c-d4814e491ef9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\STM32Cube HAL">
+      <UniqueIdentifier>{5d04d323-22de-40dc-9c8a-6b943be9cb3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\STM32Cube HAL\COMMON">
+      <UniqueIdentifier>{f647c938-03ef-4fab-9572-42a1f5b81df0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\STM32Cube HAL\RCC">
+      <UniqueIdentifier>{51b73438-d8b9-439c-b97d-1c52ff7baefd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\STM32Cube HAL\CORTEX">
+      <UniqueIdentifier>{858ef64f-f3c8-4eca-8141-7d2f12bdf9ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\STM32Cube HAL\TIM">
+      <UniqueIdentifier>{bfade495-719d-4be4-a878-2d12cda09230}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\STM32Cube HAL\UART">
+      <UniqueIdentifier>{c78ec8ce-75da-4ad2-ae9f-c0fee96af42c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\STM32Cube HAL\DMA">
+      <UniqueIdentifier>{6741c2ac-ef32-454b-ab11-16cab6f32c38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\STM32Cube HAL\PWR">
+      <UniqueIdentifier>{ec9c578b-6390-4e57-8712-88ef84442921}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\STM32Cube HAL\I2C">
+      <UniqueIdentifier>{e826f166-851b-461d-91ce-307128d185ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\STM32Cube HAL\SPI">
+      <UniqueIdentifier>{42d24150-8026-4006-a433-366f3a6ffbb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\STM32Cube HAL\FLASH">
+      <UniqueIdentifier>{7a59022a-45e2-4329-b84f-5e5c4769f69a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\STM32Cube HAL\GPIO">
+      <UniqueIdentifier>{f4f96d17-e2e1-4d44-8e41-a0a6f9e91070}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Device-specific files">
+      <UniqueIdentifier>{92702d9f-ce6f-4b4f-9baa-70a0484a7614}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VisualGDB settings">
+      <UniqueIdentifier>{a9da2ab8-02ed-4e5a-8007-39eeccffcb5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\arch">
+      <UniqueIdentifier>{61812114-c1ab-4976-9038-09e415169ae0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\lwip">
+      <UniqueIdentifier>{e70a2815-299a-484e-97bf-279e3f5ecfef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\lwip\apps">
+      <UniqueIdentifier>{a8cf736b-9ea9-48c1-96a9-444431568458}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\lwip\priv">
+      <UniqueIdentifier>{d3ab5285-24ec-4098-a5eb-52f5d938987d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\lwip\prot">
+      <UniqueIdentifier>{1d7c3f37-ab86-4e7f-a663-7ed375918e5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\netif">
+      <UniqueIdentifier>{84c95873-16f5-41a7-b14c-1fc51a74a594}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\netif\ppp">
+      <UniqueIdentifier>{582f27a1-41ce-4dd3-8f73-8de830fca640}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\netif\ppp\polarssl">
+      <UniqueIdentifier>{51c9cbda-4019-45cb-bdac-f648535fbee9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\posix">
+      <UniqueIdentifier>{33f30df4-e023-4249-9122-1c9898b90d14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\posix\sys">
+      <UniqueIdentifier>{fd64294b-64f7-46ff-afe5-698152dbffc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Src">
+      <UniqueIdentifier>{dc78b1e8-da07-48ff-8433-7ee22e7b9a4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Src\BME280">
+      <UniqueIdentifier>{d14e09d8-231c-445f-beb9-54562e89ff2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Src\ENC28J60">
+      <UniqueIdentifier>{c35b54dd-4421-45ae-bdc4-9258cb7a7560}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Src\LwIP">
+      <UniqueIdentifier>{e644688b-99db-46da-9567-af9890b0790b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Src\LwIP\api">
+      <UniqueIdentifier>{286e72d5-f9ad-417a-b092-1efd752d091e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Src\LwIP\apps">
+      <UniqueIdentifier>{c54edba7-dc7f-45bd-a489-8fff22a25abe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Src\LwIP\apps\httpd">
+      <UniqueIdentifier>{d04173bb-b09c-42b9-8b1b-005875387a3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Src\LwIP\apps\httpd\makefsdata">
+      <UniqueIdentifier>{98bc26e1-6a3c-40b6-8071-77efc36e6eb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Src\LwIP\apps\lwiperf">
+      <UniqueIdentifier>{c0fe8109-1d31-4d8d-806b-f5b2e44bffe4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Src\LwIP\apps\mdns">
+      <UniqueIdentifier>{a00e01cc-1746-4921-8812-a9c19989f862}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Src\LwIP\apps\mqtt">
+      <UniqueIdentifier>{eb17d7ee-43ee-4943-a7de-238ab19fb203}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Src\LwIP\apps\netbiosns">
+      <UniqueIdentifier>{25eace4a-3a75-46ee-aa81-13fa86c5ac97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Src\LwIP\apps\snmp">
+      <UniqueIdentifier>{071db9a9-d37f-4d2f-b632-1c99a300681b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Src\LwIP\apps\sntp">
+      <UniqueIdentifier>{88852c00-a207-4f8d-a016-0a61ece93796}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Src\LwIP\apps\tftp">
+      <UniqueIdentifier>{b6cdfaec-81e3-465f-880a-0515bc234ad0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Src\LwIP\core">
+      <UniqueIdentifier>{0800fcd2-8b2d-4cf8-9546-63d39269f25e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Src\LwIP\core\ipv4">
+      <UniqueIdentifier>{df2ff412-3364-4e7a-ab5a-4f1482bf31bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Src\LwIP\core\ipv6">
+      <UniqueIdentifier>{95f9e209-f130-4bc7-81fd-907103c557ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Src\LwIP\netif">
+      <UniqueIdentifier>{58c1d094-156c-4f50-9e76-fa6b693571fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Src\LwIP\netif\ppp">
+      <UniqueIdentifier>{4d87e0d7-bdaa-4a65-90a5-ae14e37e408e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Src\LwIP\netif\ppp\polarssl">
+      <UniqueIdentifier>{d9cdf67b-162d-42b3-9eae-4177def1c344}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\BME280">
+      <UniqueIdentifier>{7a4d78d0-48f0-4ec6-bd9a-2b93bf0eea08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\ENC28J60">
+      <UniqueIdentifier>{590804f2-a60c-4d3e-9210-b4f385b2b216}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\LwIP">
+      <UniqueIdentifier>{6ae56aa6-a4a2-4e1b-bc93-66a752357386}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\LwIP\api">
+      <UniqueIdentifier>{22e4c40c-3470-4a53-a33f-c6c6dc6f3e5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\LwIP\apps">
+      <UniqueIdentifier>{6e6f78e0-df84-46eb-9208-441b1f4fa14d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\LwIP\apps\httpd">
+      <UniqueIdentifier>{716cbb4f-c49b-476e-87be-9e17af017cd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\LwIP\apps\httpd\makefsdata">
+      <UniqueIdentifier>{65d2beeb-e477-4a97-bbc9-adc49361d309}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\LwIP\apps\lwiperf">
+      <UniqueIdentifier>{7b45dc07-5b10-439f-8da6-8647d0ab8305}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\LwIP\apps\mdns">
+      <UniqueIdentifier>{48f289ec-4663-4af7-8e95-1cd15ea2788f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\LwIP\apps\mqtt">
+      <UniqueIdentifier>{23bd4e7d-ef14-4afc-aa91-5993471df905}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\LwIP\apps\netbiosns">
+      <UniqueIdentifier>{ce08b8d2-771a-421d-8e3f-a9ae8e5ab40a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\LwIP\apps\snmp">
+      <UniqueIdentifier>{2f02136f-e3f1-4f81-9200-898ea83721fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\LwIP\apps\sntp">
+      <UniqueIdentifier>{534b46e2-3f04-4238-beae-83e4a634e9d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\LwIP\apps\tftp">
+      <UniqueIdentifier>{5bcdf7dc-a171-4137-a232-91486e132f47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\LwIP\core">
+      <UniqueIdentifier>{07a422a3-a502-4c9f-b1e1-97917ae8e7b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\LwIP\core\ipv4">
+      <UniqueIdentifier>{652d9c62-2f8b-4d58-9cd5-a40cc67dee8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\LwIP\core\ipv6">
+      <UniqueIdentifier>{15f4eb2b-0573-429c-b637-2816b510dfa5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\LwIP\netif">
+      <UniqueIdentifier>{560f73c3-939b-4eae-b8d0-cada0f9cd3d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\LwIP\netif\ppp">
+      <UniqueIdentifier>{a22e307b-9d82-4ddf-b85d-f949a550f945}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\LwIP\netif\ppp\polarssl">
+      <UniqueIdentifier>{a4035cb0-2a43-46e3-a3cb-a1350b650776}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Src\gpio.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\i2c.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\spi.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\usart.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\stm32f4xx_it.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\stm32f4xx_hal_msp.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\main.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Drivers\CMSIS\Device\ST\STM32F4xx\Source\Templates\system_stm32f4xx.c">
+      <Filter>Source files\Startup</Filter>
+    </ClCompile>
+    <ClCompile Include="Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c">
+      <Filter>Source files\STM32Cube HAL\COMMON</Filter>
+    </ClCompile>
+    <ClCompile Include="Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c">
+      <Filter>Source files\STM32Cube HAL\RCC</Filter>
+    </ClCompile>
+    <ClCompile Include="Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c">
+      <Filter>Source files\STM32Cube HAL\RCC</Filter>
+    </ClCompile>
+    <ClCompile Include="Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c">
+      <Filter>Source files\STM32Cube HAL\CORTEX</Filter>
+    </ClCompile>
+    <ClCompile Include="Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c">
+      <Filter>Source files\STM32Cube HAL\TIM</Filter>
+    </ClCompile>
+    <ClCompile Include="Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c">
+      <Filter>Source files\STM32Cube HAL\TIM</Filter>
+    </ClCompile>
+    <ClCompile Include="Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c">
+      <Filter>Source files\STM32Cube HAL\UART</Filter>
+    </ClCompile>
+    <ClCompile Include="Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c">
+      <Filter>Source files\STM32Cube HAL\DMA</Filter>
+    </ClCompile>
+    <ClCompile Include="Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c">
+      <Filter>Source files\STM32Cube HAL\DMA</Filter>
+    </ClCompile>
+    <ClCompile Include="Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c">
+      <Filter>Source files\STM32Cube HAL\PWR</Filter>
+    </ClCompile>
+    <ClCompile Include="Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c">
+      <Filter>Source files\STM32Cube HAL\PWR</Filter>
+    </ClCompile>
+    <ClCompile Include="Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c">
+      <Filter>Source files\STM32Cube HAL\I2C</Filter>
+    </ClCompile>
+    <ClCompile Include="Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c">
+      <Filter>Source files\STM32Cube HAL\I2C</Filter>
+    </ClCompile>
+    <ClCompile Include="Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c">
+      <Filter>Source files\STM32Cube HAL\SPI</Filter>
+    </ClCompile>
+    <ClCompile Include="Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c">
+      <Filter>Source files\STM32Cube HAL\FLASH</Filter>
+    </ClCompile>
+    <ClCompile Include="Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c">
+      <Filter>Source files\STM32Cube HAL\FLASH</Filter>
+    </ClCompile>
+    <ClCompile Include="Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c">
+      <Filter>Source files\STM32Cube HAL\FLASH</Filter>
+    </ClCompile>
+    <ClCompile Include="Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c">
+      <Filter>Source files\STM32Cube HAL\GPIO</Filter>
+    </ClCompile>
+    <None Include="stm32.props">
+      <Filter>Source files\Device-specific files</Filter>
+    </None>
+    <ClCompile Include="$(BSP_ROOT)\STM32F4xxxx\StartupFiles\startup_stm32f429xx.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClInclude Include="Inc\gpio.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\i2c.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\spi.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\usart.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\stm32f4xx_it.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\stm32f4xx_hal_conf.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\main.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Drivers\CMSIS\Include\core_cm4.h">
+      <Filter>Header files\CORE</Filter>
+    </ClInclude>
+    <ClInclude Include="Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h">
+      <Filter>Header files\Startup</Filter>
+    </ClInclude>
+    <ClInclude Include="Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h">
+      <Filter>Header files\Startup</Filter>
+    </ClInclude>
+    <ClInclude Include="Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h">
+      <Filter>Header files\STM32Cube HAL\COMMON</Filter>
+    </ClInclude>
+    <ClInclude Include="Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h">
+      <Filter>Header files\STM32Cube HAL\COMMON</Filter>
+    </ClInclude>
+    <ClInclude Include="Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h">
+      <Filter>Header files\STM32Cube HAL\COMMON</Filter>
+    </ClInclude>
+    <ClInclude Include="Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h">
+      <Filter>Header files\STM32Cube HAL\RCC</Filter>
+    </ClInclude>
+    <ClInclude Include="Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h">
+      <Filter>Header files\STM32Cube HAL\RCC</Filter>
+    </ClInclude>
+    <ClInclude Include="Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h">
+      <Filter>Header files\STM32Cube HAL\CORTEX</Filter>
+    </ClInclude>
+    <ClInclude Include="Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h">
+      <Filter>Header files\STM32Cube HAL\TIM</Filter>
+    </ClInclude>
+    <ClInclude Include="Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h">
+      <Filter>Header files\STM32Cube HAL\TIM</Filter>
+    </ClInclude>
+    <ClInclude Include="Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h">
+      <Filter>Header files\STM32Cube HAL\UART</Filter>
+    </ClInclude>
+    <ClInclude Include="Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h">
+      <Filter>Header files\STM32Cube HAL\DMA</Filter>
+    </ClInclude>
+    <ClInclude Include="Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h">
+      <Filter>Header files\STM32Cube HAL\DMA</Filter>
+    </ClInclude>
+    <ClInclude Include="Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h">
+      <Filter>Header files\STM32Cube HAL\PWR</Filter>
+    </ClInclude>
+    <ClInclude Include="Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h">
+      <Filter>Header files\STM32Cube HAL\PWR</Filter>
+    </ClInclude>
+    <ClInclude Include="Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c.h">
+      <Filter>Header files\STM32Cube HAL\I2C</Filter>
+    </ClInclude>
+    <ClInclude Include="Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c_ex.h">
+      <Filter>Header files\STM32Cube HAL\I2C</Filter>
+    </ClInclude>
+    <ClInclude Include="Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_spi.h">
+      <Filter>Header files\STM32Cube HAL\SPI</Filter>
+    </ClInclude>
+    <ClInclude Include="Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h">
+      <Filter>Header files\STM32Cube HAL\FLASH</Filter>
+    </ClInclude>
+    <ClInclude Include="Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h">
+      <Filter>Header files\STM32Cube HAL\FLASH</Filter>
+    </ClInclude>
+    <ClInclude Include="Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h">
+      <Filter>Header files\STM32Cube HAL\FLASH</Filter>
+    </ClInclude>
+    <ClInclude Include="Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h">
+      <Filter>Header files\STM32Cube HAL\GPIO</Filter>
+    </ClInclude>
+    <ClInclude Include="Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h">
+      <Filter>Header files\STM32Cube HAL\GPIO</Filter>
+    </ClInclude>
+    <None Include="NUCLEO_F429ZI_start_1-Debug.vgdbsettings">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+    <None Include="NUCLEO_F429ZI_start_1-Release.vgdbsettings">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+    <None Include="stm32.xml">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+    <ClInclude Include="Inc\arch\cc.h">
+      <Filter>Header files\arch</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\arch\sys_arch.h">
+      <Filter>Header files\arch</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\lwip\api.h">
+      <Filter>Header files\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\lwip\arch.h">
+      <Filter>Header files\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\lwip\autoip.h">
+      <Filter>Header files\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\lwip\debug.h">
+      <Filter>Header files\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\lwip\def.h">
+      <Filter>Header files\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\lwip\dhcp.h">
+      <Filter>Header files\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\lwip\dhcp6.h">
+      <Filter>Header files\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\lwip\dns.h">
+      <Filter>Header files\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\lwip\err.h">
+      <Filter>Header files\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\lwip\errno.h">
+      <Filter>Header files\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\lwip\etharp.h">
+      <Filter>Header files\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\lwip\ethip6.h">
+      <Filter>Header files\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\lwip\icmp.h">
+      <Filter>Header files\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\lwip\icmp6.h">
+      <Filter>Header files\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\lwip\igmp.h">
+      <Filter>Header files\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\lwip\inet.h">
+      <Filter>Header files\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\lwip\inet_chksum.h">
+      <Filter>Header files\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\lwip\init.h">
+      <Filter>Header files\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\lwip\ip.h">
+      <Filter>Header files\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\lwip\ip4.h">
+      <Filter>Header files\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\lwip\ip4_addr.h">
+      <Filter>Header files\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\lwip\ip4_frag.h">
+      <Filter>Header files\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\lwip\ip6.h">
+      <Filter>Header files\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\lwip\ip6_addr.h">
+      <Filter>Header files\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\lwip\ip6_frag.h">
+      <Filter>Header files\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\lwip\ip_addr.h">
+      <Filter>Header files\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\lwip\mem.h">
+      <Filter>Header files\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\lwip\memp.h">
+      <Filter>Header files\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\lwip\mld6.h">
+      <Filter>Header files\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\lwip\nd6.h">
+      <Filter>Header files\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\lwip\netbuf.h">
+      <Filter>Header files\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\lwip\netdb.h">
+      <Filter>Header files\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\lwip\netif.h">
+      <Filter>Header files\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\lwip\netifapi.h">
+      <Filter>Header files\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\lwip\opt.h">
+      <Filter>Header files\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\lwip\pbuf.h">
+      <Filter>Header files\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\lwip\raw.h">
+      <Filter>Header files\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\lwip\sio.h">
+      <Filter>Header files\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\lwip\snmp.h">
+      <Filter>Header files\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\lwip\sockets.h">
+      <Filter>Header files\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\lwip\stats.h">
+      <Filter>Header files\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\lwip\sys.h">
+      <Filter>Header files\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\lwip\tcp.h">
+      <Filter>Header files\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\lwip\tcpip.h">
+      <Filter>Header files\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\lwip\timeouts.h">
+      <Filter>Header files\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\lwip\udp.h">
+      <Filter>Header files\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\lwip\apps\fs.h">
+      <Filter>Header files\lwip\apps</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\lwip\apps\httpd.h">
+      <Filter>Header files\lwip\apps</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\lwip\apps\httpd_opts.h">
+      <Filter>Header files\lwip\apps</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\lwip\apps\lwiperf.h">
+      <Filter>Header files\lwip\apps</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\lwip\apps\mdns.h">
+      <Filter>Header files\lwip\apps</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\lwip\apps\mdns_opts.h">
+      <Filter>Header files\lwip\apps</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\lwip\apps\mdns_priv.h">
+      <Filter>Header files\lwip\apps</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\lwip\apps\mqtt.h">
+      <Filter>Header files\lwip\apps</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\lwip\apps\mqtt_opts.h">
+      <Filter>Header files\lwip\apps</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\lwip\apps\netbiosns.h">
+      <Filter>Header files\lwip\apps</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\lwip\apps\netbiosns_opts.h">
+      <Filter>Header files\lwip\apps</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\lwip\apps\snmp.h">
+      <Filter>Header files\lwip\apps</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\lwip\apps\snmpv3.h">
+      <Filter>Header files\lwip\apps</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\lwip\apps\snmp_core.h">
+      <Filter>Header files\lwip\apps</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\lwip\apps\snmp_mib2.h">
+      <Filter>Header files\lwip\apps</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\lwip\apps\snmp_opts.h">
+      <Filter>Header files\lwip\apps</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\lwip\apps\snmp_scalar.h">
+      <Filter>Header files\lwip\apps</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\lwip\apps\snmp_table.h">
+      <Filter>Header files\lwip\apps</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\lwip\apps\snmp_threadsync.h">
+      <Filter>Header files\lwip\apps</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\lwip\apps\sntp.h">
+      <Filter>Header files\lwip\apps</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\lwip\apps\sntp_opts.h">
+      <Filter>Header files\lwip\apps</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\lwip\apps\tftp_opts.h">
+      <Filter>Header files\lwip\apps</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\lwip\apps\tftp_server.h">
+      <Filter>Header files\lwip\apps</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\lwip\priv\api_msg.h">
+      <Filter>Header files\lwip\priv</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\lwip\priv\memp_priv.h">
+      <Filter>Header files\lwip\priv</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\lwip\priv\memp_std.h">
+      <Filter>Header files\lwip\priv</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\lwip\priv\nd6_priv.h">
+      <Filter>Header files\lwip\priv</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\lwip\priv\tcpip_priv.h">
+      <Filter>Header files\lwip\priv</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\lwip\priv\tcp_priv.h">
+      <Filter>Header files\lwip\priv</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\lwip\prot\autoip.h">
+      <Filter>Header files\lwip\prot</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\lwip\prot\dhcp.h">
+      <Filter>Header files\lwip\prot</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\lwip\prot\dns.h">
+      <Filter>Header files\lwip\prot</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\lwip\prot\etharp.h">
+      <Filter>Header files\lwip\prot</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\lwip\prot\ethernet.h">
+      <Filter>Header files\lwip\prot</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\lwip\prot\icmp.h">
+      <Filter>Header files\lwip\prot</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\lwip\prot\icmp6.h">
+      <Filter>Header files\lwip\prot</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\lwip\prot\igmp.h">
+      <Filter>Header files\lwip\prot</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\lwip\prot\ip.h">
+      <Filter>Header files\lwip\prot</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\lwip\prot\ip4.h">
+      <Filter>Header files\lwip\prot</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\lwip\prot\ip6.h">
+      <Filter>Header files\lwip\prot</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\lwip\prot\mld6.h">
+      <Filter>Header files\lwip\prot</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\lwip\prot\nd6.h">
+      <Filter>Header files\lwip\prot</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\lwip\prot\tcp.h">
+      <Filter>Header files\lwip\prot</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\lwip\prot\udp.h">
+      <Filter>Header files\lwip\prot</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\netif\etharp.h">
+      <Filter>Header files\netif</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\netif\ethernet.h">
+      <Filter>Header files\netif</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\netif\ethernetif.h">
+      <Filter>Header files\netif</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\netif\lowpan6.h">
+      <Filter>Header files\netif</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\netif\lowpan6_opts.h">
+      <Filter>Header files\netif</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\netif\slipif.h">
+      <Filter>Header files\netif</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\netif\ppp\ccp.h">
+      <Filter>Header files\netif\ppp</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\netif\ppp\chap-md5.h">
+      <Filter>Header files\netif\ppp</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\netif\ppp\chap-new.h">
+      <Filter>Header files\netif\ppp</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\netif\ppp\chap_ms.h">
+      <Filter>Header files\netif\ppp</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\netif\ppp\eap.h">
+      <Filter>Header files\netif\ppp</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\netif\ppp\ecp.h">
+      <Filter>Header files\netif\ppp</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\netif\ppp\eui64.h">
+      <Filter>Header files\netif\ppp</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\netif\ppp\fsm.h">
+      <Filter>Header files\netif\ppp</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\netif\ppp\ipcp.h">
+      <Filter>Header files\netif\ppp</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\netif\ppp\ipv6cp.h">
+      <Filter>Header files\netif\ppp</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\netif\ppp\lcp.h">
+      <Filter>Header files\netif\ppp</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\netif\ppp\magic.h">
+      <Filter>Header files\netif\ppp</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\netif\ppp\mppe.h">
+      <Filter>Header files\netif\ppp</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\netif\ppp\ppp.h">
+      <Filter>Header files\netif\ppp</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\netif\ppp\pppapi.h">
+      <Filter>Header files\netif\ppp</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\netif\ppp\pppcrypt.h">
+      <Filter>Header files\netif\ppp</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\netif\ppp\pppdebug.h">
+      <Filter>Header files\netif\ppp</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\netif\ppp\pppoe.h">
+      <Filter>Header files\netif\ppp</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\netif\ppp\pppol2tp.h">
+      <Filter>Header files\netif\ppp</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\netif\ppp\pppos.h">
+      <Filter>Header files\netif\ppp</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\netif\ppp\ppp_impl.h">
+      <Filter>Header files\netif\ppp</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\netif\ppp\ppp_opts.h">
+      <Filter>Header files\netif\ppp</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\netif\ppp\upap.h">
+      <Filter>Header files\netif\ppp</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\netif\ppp\vj.h">
+      <Filter>Header files\netif\ppp</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\netif\ppp\polarssl\arc4.h">
+      <Filter>Header files\netif\ppp\polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\netif\ppp\polarssl\des.h">
+      <Filter>Header files\netif\ppp\polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\netif\ppp\polarssl\md4.h">
+      <Filter>Header files\netif\ppp\polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\netif\ppp\polarssl\md5.h">
+      <Filter>Header files\netif\ppp\polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\netif\ppp\polarssl\sha1.h">
+      <Filter>Header files\netif\ppp\polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\posix\errno.h">
+      <Filter>Header files\posix</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\posix\netdb.h">
+      <Filter>Header files\posix</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\posix\sys\socket.h">
+      <Filter>Header files\posix\sys</Filter>
+    </ClInclude>
+    <ClCompile Include="Src\BME280\bme280.c">
+      <Filter>Source files\BME280</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\BME280\msARM_BME280_I2Cdriver.c">
+      <Filter>Source files\BME280</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\BME280\msARM_BME280_SPIdriver.c">
+      <Filter>Source files\BME280</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\ENC28J60\enc28j60.c">
+      <Filter>Source files\ENC28J60</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\ENC28J60\msENC28J60_HAL.c">
+      <Filter>Source files\ENC28J60</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\LwIP\api\api_lib.c">
+      <Filter>Source files\LwIP\api</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\LwIP\api\api_msg.c">
+      <Filter>Source files\LwIP\api</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\LwIP\api\err.c">
+      <Filter>Source files\LwIP\api</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\LwIP\api\netbuf.c">
+      <Filter>Source files\LwIP\api</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\LwIP\api\netdb.c">
+      <Filter>Source files\LwIP\api</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\LwIP\api\netifapi.c">
+      <Filter>Source files\LwIP\api</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\LwIP\api\sockets.c">
+      <Filter>Source files\LwIP\api</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\LwIP\api\tcpip.c">
+      <Filter>Source files\LwIP\api</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\LwIP\core\def.c">
+      <Filter>Source files\LwIP\core</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\LwIP\core\dns.c">
+      <Filter>Source files\LwIP\core</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\LwIP\core\inet_chksum.c">
+      <Filter>Source files\LwIP\core</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\LwIP\core\init.c">
+      <Filter>Source files\LwIP\core</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\LwIP\core\ip.c">
+      <Filter>Source files\LwIP\core</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\LwIP\core\mem.c">
+      <Filter>Source files\LwIP\core</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\LwIP\core\memp.c">
+      <Filter>Source files\LwIP\core</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\LwIP\core\netif.c">
+      <Filter>Source files\LwIP\core</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\LwIP\core\pbuf.c">
+      <Filter>Source files\LwIP\core</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\LwIP\core\raw.c">
+      <Filter>Source files\LwIP\core</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\LwIP\core\stats.c">
+      <Filter>Source files\LwIP\core</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\LwIP\core\sys.c">
+      <Filter>Source files\LwIP\core</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\LwIP\core\tcp.c">
+      <Filter>Source files\LwIP\core</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\LwIP\core\tcp_in.c">
+      <Filter>Source files\LwIP\core</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\LwIP\core\tcp_out.c">
+      <Filter>Source files\LwIP\core</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\LwIP\core\timeouts.c">
+      <Filter>Source files\LwIP\core</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\LwIP\core\udp.c">
+      <Filter>Source files\LwIP\core</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\LwIP\core\ipv4\autoip.c">
+      <Filter>Source files\LwIP\core\ipv4</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\LwIP\core\ipv4\dhcp.c">
+      <Filter>Source files\LwIP\core\ipv4</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\LwIP\core\ipv4\etharp.c">
+      <Filter>Source files\LwIP\core\ipv4</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\LwIP\core\ipv4\icmp.c">
+      <Filter>Source files\LwIP\core\ipv4</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\LwIP\core\ipv4\igmp.c">
+      <Filter>Source files\LwIP\core\ipv4</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\LwIP\core\ipv4\ip4.c">
+      <Filter>Source files\LwIP\core\ipv4</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\LwIP\core\ipv4\ip4_addr.c">
+      <Filter>Source files\LwIP\core\ipv4</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\LwIP\core\ipv4\ip4_frag.c">
+      <Filter>Source files\LwIP\core\ipv4</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\LwIP\core\ipv6\dhcp6.c">
+      <Filter>Source files\LwIP\core\ipv6</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\LwIP\core\ipv6\ethip6.c">
+      <Filter>Source files\LwIP\core\ipv6</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\LwIP\core\ipv6\icmp6.c">
+      <Filter>Source files\LwIP\core\ipv6</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\LwIP\core\ipv6\inet6.c">
+      <Filter>Source files\LwIP\core\ipv6</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\LwIP\core\ipv6\ip6.c">
+      <Filter>Source files\LwIP\core\ipv6</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\LwIP\core\ipv6\ip6_addr.c">
+      <Filter>Source files\LwIP\core\ipv6</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\LwIP\core\ipv6\ip6_frag.c">
+      <Filter>Source files\LwIP\core\ipv6</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\LwIP\core\ipv6\mld6.c">
+      <Filter>Source files\LwIP\core\ipv6</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\LwIP\core\ipv6\nd6.c">
+      <Filter>Source files\LwIP\core\ipv6</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\LwIP\netif\ethernet.c">
+      <Filter>Source files\LwIP\netif</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\LwIP\netif\ethernetif.c">
+      <Filter>Source files\LwIP\netif</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\LwIP\netif\ethernetif_org.c">
+      <Filter>Source files\LwIP\netif</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\LwIP\netif\lowpan6.c">
+      <Filter>Source files\LwIP\netif</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\LwIP\netif\slipif.c">
+      <Filter>Source files\LwIP\netif</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\LwIP\netif\ppp\auth.c">
+      <Filter>Source files\LwIP\netif\ppp</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\LwIP\netif\ppp\ccp.c">
+      <Filter>Source files\LwIP\netif\ppp</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\LwIP\netif\ppp\chap-md5.c">
+      <Filter>Source files\LwIP\netif\ppp</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\LwIP\netif\ppp\chap-new.c">
+      <Filter>Source files\LwIP\netif\ppp</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\LwIP\netif\ppp\chap_ms.c">
+      <Filter>Source files\LwIP\netif\ppp</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\LwIP\netif\ppp\demand.c">
+      <Filter>Source files\LwIP\netif\ppp</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\LwIP\netif\ppp\eap.c">
+      <Filter>Source files\LwIP\netif\ppp</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\LwIP\netif\ppp\ecp.c">
+      <Filter>Source files\LwIP\netif\ppp</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\LwIP\netif\ppp\eui64.c">
+      <Filter>Source files\LwIP\netif\ppp</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\LwIP\netif\ppp\fsm.c">
+      <Filter>Source files\LwIP\netif\ppp</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\LwIP\netif\ppp\ipcp.c">
+      <Filter>Source files\LwIP\netif\ppp</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\LwIP\netif\ppp\ipv6cp.c">
+      <Filter>Source files\LwIP\netif\ppp</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\LwIP\netif\ppp\lcp.c">
+      <Filter>Source files\LwIP\netif\ppp</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\LwIP\netif\ppp\magic.c">
+      <Filter>Source files\LwIP\netif\ppp</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\LwIP\netif\ppp\mppe.c">
+      <Filter>Source files\LwIP\netif\ppp</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\LwIP\netif\ppp\multilink.c">
+      <Filter>Source files\LwIP\netif\ppp</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\LwIP\netif\ppp\ppp.c">
+      <Filter>Source files\LwIP\netif\ppp</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\LwIP\netif\ppp\pppapi.c">
+      <Filter>Source files\LwIP\netif\ppp</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\LwIP\netif\ppp\pppcrypt.c">
+      <Filter>Source files\LwIP\netif\ppp</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\LwIP\netif\ppp\pppoe.c">
+      <Filter>Source files\LwIP\netif\ppp</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\LwIP\netif\ppp\pppol2tp.c">
+      <Filter>Source files\LwIP\netif\ppp</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\LwIP\netif\ppp\pppos.c">
+      <Filter>Source files\LwIP\netif\ppp</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\LwIP\netif\ppp\upap.c">
+      <Filter>Source files\LwIP\netif\ppp</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\LwIP\netif\ppp\utils.c">
+      <Filter>Source files\LwIP\netif\ppp</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\LwIP\netif\ppp\vj.c">
+      <Filter>Source files\LwIP\netif\ppp</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\LwIP\netif\ppp\polarssl\arc4.c">
+      <Filter>Source files\LwIP\netif\ppp\polarssl</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\LwIP\netif\ppp\polarssl\des.c">
+      <Filter>Source files\LwIP\netif\ppp\polarssl</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\LwIP\netif\ppp\polarssl\md4.c">
+      <Filter>Source files\LwIP\netif\ppp\polarssl</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\LwIP\netif\ppp\polarssl\md5.c">
+      <Filter>Source files\LwIP\netif\ppp\polarssl</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\LwIP\netif\ppp\polarssl\sha1.c">
+      <Filter>Source files\LwIP\netif\ppp\polarssl</Filter>
+    </ClCompile>
+    <ClInclude Include="Src\BME280\bme280.h">
+      <Filter>Header files\Src\BME280</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\BME280\bme280_defs.h">
+      <Filter>Header files\Src\BME280</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\BME280\msARM_BME280_I2Cdriver.h">
+      <Filter>Header files\Src\BME280</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\BME280\msARM_BME280_SPIdriver.h">
+      <Filter>Header files\Src\BME280</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\ENC28J60\enc28j60.h">
+      <Filter>Header files\Src\ENC28J60</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\ENC28J60\lc-switch.h">
+      <Filter>Header files\Src\ENC28J60</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\ENC28J60\lc.h">
+      <Filter>Header files\Src\ENC28J60</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\ENC28J60\msENC28J60_HAL.h">
+      <Filter>Header files\Src\ENC28J60</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\ENC28J60\pt.h">
+      <Filter>Header files\Src\ENC28J60</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\LwIP\netif\ppp\ppp_opts.h">
+      <Filter>Header files\Src\LwIP\netif\ppp</Filter>
+    </ClInclude>
+    <ClCompile Include="Src\msSTM32Function.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\syscalls.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\trash.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\msLWIPFunctions.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Inc\ethernetif.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\lwipopts.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\msSTM32Function.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\msLWIPFunctions.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\msLWIP_testfn.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
